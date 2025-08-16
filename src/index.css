@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    width: 100dvw;
+    height: 100%;
+    background-color: #111111;
+    overflow-x: hidden;
+}
+.card-price .info-icon{
+    position: absolute;
+    -webkit-justify-content:flex-end;
+    -webkit-align-items: flex-end;
+}
+
+
+@layer base {
+    @font-face {
+        font-family: 'TitlingGothicFB';
+        src: url('assets/fonts/TitlingGothicFBComp-Medium.woff') format('woff2');
+    }
+    @font-face {
+        font-family: 'TitlingGothicFB-Regular';
+        src: url('assets/fonts/Titling-Gothic-Regular.ttf') format('woff2');
+    }
+    @font-face {
+        font-family: 'Poppins-Regular';
+        src: url('assets/fonts/Poppins-Regular.ttf') format('woff2');
+    }
+    @font-face {
+        font-family: 'Poppins-Medium';
+        src: url('assets/fonts/Poppins-Medium.ttf') format('woff2');
+    }
+    @font-face {
+        font-family: 'Poppins-Bold';
+        src: url('assets/fonts/Poppins-Bold.ttf') format('woff2');
+    }
+}
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+
+}
+.content.open{
+    height: auto;
+    max-height: 500px;
+    transition:all ease-in-out 0.5s;
+
+}
+.headline.active{
+    font-size: 64px;
+    height: auto;
+
+}
+/*button.active{*/
+/*    color: #fff;*/
+/*    background-color: #515151;*/
+/*}*/
+
+.active-item h2{
+    height: auto;
+}
+.card-price {
+    transition: all ease-in-out 0.5s;
+
+}
