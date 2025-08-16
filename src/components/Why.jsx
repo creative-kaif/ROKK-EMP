@@ -12,35 +12,35 @@ const Why = () => {
     const accordionItems = [
         {
             id: 1,
-            title: "All your favourite bands and genres",
+            title: "Alle Deine Lieblingsbands Und - genres",
             image: { imgOne },
-            desc: `Your favourite bands in every genre you can think of + top-notch recommendations & playlists.  `,
+            desc: `Deine Lieblingsbands in jedem erdenklichen Genre – plus erstklassige Empfehlungen & Playlists. `,
         },
         {
             id: 2,
-            title: "All other styles of music",
+            title: "Alle Anderen Musikstile",
             image: { imgTwo },
-            desc: `Our focus is Rock & Metal, but you can listen to anything you want! `,
+            desc: `Unser Fokus liegt auf Rock & Metal – aber du kannst alles hören, was du willst!`,
         },
         {
             id: 3,
             title: "High Quality Audio",
-            desc: `Our standard streaming quality already meets HiFi standards.`,
+            desc: `Unsere Standard Streaming Qualität entspricht bereits HiFi Standards.`,
         },
         {
             id: 4,
-            title: "More € per stream",
-            desc: `With ROKK there is more money for the bands and artists you listen to. `,
+            title: "Mehr € Pro Stream",
+            desc: `Mit ROKK gibt es mehr Geld für die Bands und Künstler, die du hörst. `,
         },
         {
             id: 5,
             title: "Direct Artist Support",
-            desc: `With the ROKK HiFi subscription, you directly support an artist of your choice.`,
+            desc: `Mit dem ROKK HiFi-Abo unterstützt du direkt einen Künstler deiner Wahl.`,
         },
         {
             id: 6,
-            title: "Import Playlist",
-            desc: `With an easy import function for your favourite playlists from other services. `,
+            title: "Playlists Importieren",
+            desc: `Mit einer einfachen Importfunktion für deine Lieblings-Playlists von anderen Diensten. `,
         },
     ];
     return (
@@ -57,7 +57,7 @@ const Why = () => {
                     <div className="pt-44 pb-44 max-md:pb-32 max-md:pt-24">
                         <h5 className="ml-3 text-4xl max-md:text-2xl max-md:tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">WARUM <span><img
                             src={Icon} className="relative w-9 inline items-center max-md:w-6 max-md:mx-1 mx-3 mb-2"
-                            alt="" /></span> Rokk</h5>
+                            alt="" /></span> Rokk ?</h5>
 
 
                         <div

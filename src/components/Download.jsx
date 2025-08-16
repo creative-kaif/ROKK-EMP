@@ -18,10 +18,11 @@ const Download = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="content-body my-auto mx-auto max-md:text-center">
-                        <h1 className="text-6xl font-TitlingGothicFB max-w-xl max-md:text-5xl text-white tracking-wide leading-none uppercase">Music
-                            anytime, anywhere.</h1>
+                        <h1 className="text-6xl font-TitlingGothicFB max-w-md max-md:text-5xl text-white tracking-wide leading-none uppercase">
+                            MUSIK. JEDERZEIT UND ÜBERALL
+                        </h1>
                         <p className={` transition-all ease-in mt-2 text-black-150 font-Poppins-Regular max-md:text-base text-base max-w-md leading-7`}>
-                            High Quality Downloads /Offline mode included.   <span className="text-Orange-200">Download the App Now</span>
+                            High-Quality-Downloads / Offline-Modus inklusive.   <span className="text-Orange-200">DApp jetzt herunterladen</span>
                         </p>
                         <motion.div
                             className=" flex download-btn mt-14 max-md:mx-auto max-md:justify-center">

@@ -10,27 +10,27 @@ const Pricing = () => {
     let features = [
         {
             id: 1,
-            title: "All your favourite bands & Genre",
+            title: "Alle deine Lieblingsbands & -Genres",
         },
         {
             id: 2,
-            title: "Including every other style of Music",
+            title: "Inklusive aller anderen Musikrichtungen",
         },
         {
             id: 3,
-            title: "HiFi Sound Quality",
+            title: "HiFi-Soundqualität",
         },
         {
             id: 4,
-            title: "Background information on all artists",
+            title: "Hintergrundinfos zu allen Künstlern",
         },
         {
             id: 5,
-            title: "Up to 10% Direct Artist Support",
+            title: "Bis zu 10 % Direct Artist Support",
         },
         {
             id: 6,
-            title: "More money for bands and artists",
+            title: "Mehr Geld für Bands und Künstler",
         },
 
     ];
@@ -54,16 +54,9 @@ const Pricing = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="content-head text-center">
 
-                        <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">Exclusively for <span>
-                            <img
-                                src={TFLogo} className="max-w-52 relative -mt-2 max-md:-mt-0 inline items-center max-md:w-32 max-md:mx-1 mx-3 mb-2"
-                                alt="" />EMP</span> customers</h1>
-                        <p className="mx-auto text-center max-md:max-w-lg transition-all ease-in mt-2 text-black-150 font-Poppins-Regular max-md:text-md text-base leading-6">
-                            ROKK HIFI €6.66/per month for the first 3 months after trial. <br />
-                            <br />
-                            All your favorite bands & Genre Including every other style of Music HiFi Sound Quality Background information on all artists Up to 10% Direct Artist Support More money for bands and artists €10.99/month after that / cancel anytime
-                        </p>
-
+                        <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">EXKLUSIV FÜR <span><img
+                            src={TFLogo} className="max-w-52 relative -mt-2 max-md:-mt-0 inline items-center max-md:w-32 max-md:mx-1 mx-3 mb-2"
+                            alt="" /></span>  EMP-KUNDEN </h1>
 
 
 
@@ -87,17 +80,17 @@ const Pricing = () => {
                                     <div className="price-body col-span-6 max-md:col-span-1  border-r-2 max-md:border-r-0 max-md:border-b-2 border-black-250 min-w-xl">
                                         <h5 className="font-Poppins-Medium tracking-tight uppercase text-white text-4xl">ROKK HIFI</h5>
                                         <div className="rate">
-                                            <h4 className="text-Orange-200 max-md:text-4xl text-5xl mt-4 tracking-tight font-Poppins-Medium">90 days free
-
+                                            <h4 className="text-Orange-200 max-md:text-4xl text-5xl mt-4 tracking-tight font-Poppins-Medium">
+                                                90 Tage gratis
                                             </h4>
                                         </div>
-                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200"><span className="">After that, </span>€6.66/month</p>
-                                        <p className=" mt-1 font-Poppins-Regular text-lg text-white opacity-50">for the first 3 months after the test phase.</p>
+                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">Danach 6,66 € / Monat</p>
+                                        <p className=" mt-1 font-Poppins-Regular text-lg text-white opacity-50">für die ersten 3 Monate nach der Testphase</p>
                                         <div className="btn">
                                             <div className="relative mt-8 max-md:mb-12">
                                                 <a href="https://services.rokk-api.com/?ref=heavys"
                                                     className="shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-5 max-md:text-xs py-4 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-sm hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                                    START YOUR 90 DAYS FREE NOW
+                                                    Starte jetzt deine 90 Tage gratis
                                                 </a>
                                             </div>
                                         </div>

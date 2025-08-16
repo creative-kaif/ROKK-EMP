@@ -15,9 +15,9 @@ const Cta = () => {
                         <div className="grid grid-cols-6 max-md:grid-cols-1 max-lg:grid-cols-1 gap-0 p-12 max-md:p-6 py-16 items-center">
                             <div className="col-span-4">
                                 <h1 className="text-5xl max-md:text-center font-TitlingGothicFB max-w-xl max-md:text-4xl text-white tracking-wide leading-tighter uppercase">
-                                    Rokk is a music streaming service - made for
-                                    <span className="bg-gradient-to-r from-Orange-200 to-Orange-100 text-transparent bg-clip-text"> metal and rock </span>
-                                    fans
+                                    ROKK IST EIN MUSIK-STREAMINGDIENST – GEMACHT FÜR
+                                    <span className="bg-gradient-to-r from-Orange-200 to-Orange-100 text-transparent bg-clip-text"> METAL - UND ROCK </span>
+                                    - FANS
                                 </h1>
                             </div>
                             <div className="col-span-2">
@@ -25,7 +25,7 @@ const Cta = () => {
                                     <div className="relative ">
                                         <a href="https://services.rokk-api.com/?ref=heavys"
                                             className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-4 max-md:mt-8 max-md:text-xs py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase max-md:text-sm text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                            START YOUR 90 DAYS FREE NOW
+                                            Starte jetzt deine 90 Tage gratis
                                         </a>
                                     </div>
                                 </div>

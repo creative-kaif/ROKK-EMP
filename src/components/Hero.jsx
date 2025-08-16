@@ -36,7 +36,7 @@ const Hero = () => {
                         <div className="relative text-center">
                             <a href="https://services.rokk-api.com/?ref=heavys"
                                 className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-8 max-md:text-sm py-6 px-12 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                START YOUR 90 DAYS FREE NOW
+                                Starte jetzt deine 90 Tage gratis
                             </a>
                         </div>
 
