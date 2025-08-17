@@ -54,7 +54,7 @@ const Why = () => {
             <section
                 className="why-rokk-section w-screen h-full bg-gradient-to-b from-black-400/0 from-0% to-black-400 to-25% text-Orange-200 z-50">
                 <div className="container px-4 max-md:px-6 mx-auto">
-                    <div className="pt-44 pb-44 max-md:pb-32 max-md:pt-24">
+                    <div className="pt-32 pb-44 max-md:pb-32 max-md:pt-12">
                         <h5 className="ml-3 text-4xl max-md:text-2xl max-md:tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">WARUM <span><img
                             src={Icon} className="relative w-9 inline items-center max-md:w-6 max-md:mx-1 mx-3 mb-2"
                             alt="" /></span> Rokk ?</h5>

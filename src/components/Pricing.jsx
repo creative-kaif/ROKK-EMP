@@ -71,7 +71,7 @@ const Pricing = () => {
                         <div
                             className="card-price bg-black-100 p-[2px] rounded-3xl  transition ease-in duration-300  hover:bg-gradient-to-l  bg-gradient-to-r from-Orange-200 to-black-100/10">
                             <div className="body p-[1px] bg-black-100 rounded-3xl ">
-                                <div className="grid  grid-cols-12 max-md:grid-cols-1 gap-0 p-8 max-md:p-6">
+                                <div className=" grid  grid-cols-12 max-md:grid-cols-1 gap-0 p-8 max-md:p-4">
                                     <div className="info-icon absolute justify-self-end ">
                                         <a className="justify-self-end" href="https://rokk-app.com/faq">
                                             <img className="" src={Info} alt="" />
@@ -84,13 +84,13 @@ const Pricing = () => {
                                                 90 Tage gratis
                                             </h4>
                                         </div>
-                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">Danach 6,66 € / Monat</p>
+                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">Danach 6, 66 € / Monat</p>
                                         <p className=" mt-1 font-Poppins-Regular text-lg text-white opacity-50">für die ersten 3 Monate nach der Testphase</p>
                                         <div className="btn">
-                                            <div className="relative mt-8 max-md:mb-12">
+                                            <div className="w-full relative mt-8 max-md:mb-12">
                                                 <a href="https://services.rokk-api.com/?ref=heavys"
-                                                    className="shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-5 max-md:text-xs py-4 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-sm hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                                    Starte jetzt deine 90 Tage gratis
+                                                    className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-3 max-md:text-xs py-4 px-6 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
+                                                    Jetzt 90 Tage gratis testen
                                                 </a>
                                             </div>
                                         </div>
@@ -100,11 +100,11 @@ const Pricing = () => {
                                     <div className="features wi-full   mr-[-100px] col-span-6 max-md:mt-6">
 
                                         {features.map(feature => (
-                                            <div className="feature-item pl-8 max-md:pl-0 ">
-                                                <div className="item items-center py-2 inline-flex">
+                                            <div className="w-full feature-item pl-8 max-md:pl-0 ">
+                                                <div className="w-full item items-center py-2 inline-flex">
                                                     <span className="inline-block w-5 mr-2 max-md:w-4">
                                                         <img src={Check} alt="" /></span>
-                                                    <h6 className="text-base max-md:text-sm text-black-50 font-Poppins-Regular tracking-normal">{feature.title}</h6>
+                                                    <h6 className="text-base w-full max-md:w-[65%] max-md:text-sm text-black-50 font-Poppins-Regular tracking-normal">{feature.title}</h6>
                                                 </div>
                                             </div>
                                         ))}
@@ -114,7 +114,7 @@ const Pricing = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">€10.99/month after that / cancel anytime</p>
+                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">10,99 €/Monat danach – jederzeit kündbar</p>
                 </div>
             </div>
         </div>

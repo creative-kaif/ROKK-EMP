@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const Cta = () => {
     return (
         <div className="cta-section pt-24 pb-12 max-md:pt-18 max-md:pb-6 bg-gradient-to-b from-black-300 from-0% to-black-500 to-75%">
-            <div className="container mx-auto px-8 max-md:px-6">
+            <div className="container mx-auto px-8 max-md:px-4">
                 <motion.div initial={{ y: 50, opacity: 0, scale: 0.8 }}
                     animate={{ y: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, y: -40, scale: 1 }}
@@ -16,16 +16,16 @@ const Cta = () => {
                             <div className="col-span-4">
                                 <h1 className="text-5xl max-md:text-center font-TitlingGothicFB max-w-xl max-md:text-4xl text-white tracking-wide leading-tighter uppercase">
                                     ROKK IST EIN MUSIK-STREAMINGDIENST – GEMACHT FÜR
-                                    <span className="bg-gradient-to-r from-Orange-200 to-Orange-100 text-transparent bg-clip-text"> METAL - UND ROCK </span>
-                                    - FANS
+                                    <span className="bg-gradient-to-r from-Orange-200 to-Orange-100 text-transparent bg-clip-text"> METAL UND ROCK </span>
+                                    FANS
                                 </h1>
                             </div>
                             <div className="col-span-2">
                                 <div className="max-md:mt-8 max-lg:mt-14 max-md:mb-4 btn flex max-md:justify-center">
                                     <div className="relative ">
                                         <a href="https://services.rokk-api.com/?ref=heavys"
-                                            className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-4 max-md:mt-8 max-md:text-xs py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase max-md:text-sm text-md hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                            Starte jetzt deine 90 Tage gratis
+                                            className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-3 max-md:mt-8 max-md:text-xs py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase max-md:text-sm text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
+                                            Jetzt 90 Tage gratis testen
                                         </a>
                                     </div>
                                 </div>

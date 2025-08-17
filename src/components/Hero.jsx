@@ -35,8 +35,8 @@ const Hero = () => {
                         className="mt-16 max-md:mt-10 relative">
                         <div className="relative text-center">
                             <a href="https://services.rokk-api.com/?ref=heavys"
-                                className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-8 max-md:text-sm py-6 px-12 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                Starte jetzt deine 90 Tage gratis
+                                className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-4 max-md:text-sm max-md:w-[300px] py-6 px-12 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
+                                Jetzt 90 Tage gratis testen
                             </a>
                         </div>
 
