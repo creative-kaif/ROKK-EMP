@@ -56,7 +56,7 @@ const Pricing = () => {
 
                         <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">EXKLUSIV FÜR <span><img
                             src={TFLogo} className="max-w-52 relative -mt-2 max-md:-mt-0 inline items-center max-md:w-32 max-md:mx-1 mx-3 mb-2"
-                            alt="" /></span>  EMP-KUNDEN </h1>
+                            alt="" /></span>  BSC Mitglieder </h1>
 
 
 

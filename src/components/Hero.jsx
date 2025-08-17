@@ -47,7 +47,7 @@ const Hero = () => {
 
                         <div className="flex items-center justify-center">
                             <p className="flex items-center relative mt-12 max-md:mt-8 max-md:text-sm font-Poppins-Regular text-white text-lg text-center">Exklusiv für <img
-                                src={TFLogo} className="w-32 p-2" alt="" />Mitglieder</p>
+                                src={TFLogo} className="w-32 p-2" alt="" />BSC Mitglieder</p>
 
                         </div>
                     </motion.div>
