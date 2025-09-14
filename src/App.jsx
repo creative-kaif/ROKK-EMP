@@ -6,7 +6,7 @@ import Download from "./components/Download.jsx";
 import Cta from "./components/CTA.jsx";
 import Footer from "./components/footer.jsx";
 import { motion } from "motion/react";
-import Banner from "../src/assets/img/banner-2.jpg";
+import Banner from "../src/assets/img/banner-2.png";
 
 
 const App = () => {
