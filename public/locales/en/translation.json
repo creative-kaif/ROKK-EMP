@@ -15,8 +15,8 @@
         "getNow": "you now receive",
         "free90Days": "90 days completely free",
         "exclusiveAccess": "exclusive access to ROKK – the fair rock and metal streaming platform, developed by musicians for real music fans – and after that you stream another",
-        "next3Months": "then you stream another three months for only €6.66 per month.*",
-        "afterPrice": "*€10.99/month afterwards – cancel anytime",
+        "next3Months": "then you stream another three months for only £6.66 per month.*",
+        "afterPrice": "*£10.99/month afterwards – cancel anytime",
         "exclusiveForClub": "Exclusive for EMP Backstage Club members",
         "clubMembers": "Backstage Club members",
         "favoriteBandsGenres": "All your favorite bands & genres",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Exclusive for",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 days free",
-        "afterTrialPrice": "Then €6.66 / month",
+        "afterTrialPrice": "Then £6.66 / month",
         "first3MonthsPrice": "for the first 3 months after the trial period",
-        "cancelAnytimePrice": "€10.99/month afterwards – cancel anytime",
+        "cancelAnytimePrice": "£10.99/month afterwards – cancel anytime",
         "bandsGenresTitle": "All your favorite bands and genres",
         "bandsGenresDesc": "Your favorite bands in every imaginable genre – plus top recommendations & playlists.",
         "otherGenresTitle": "All other music styles",
@@ -44,6 +44,7 @@
         "playlistImport": "Import playlists",
         "playlistImportDesc": "With an easy import function for your favorite playlists from other services.",
         "why": "Why",
-        "selectLanguage": "Select your language"
+        "selectLanguage": "Select your language",
+        "notify": "The €6.66 offer is based on the standard European price of €10.99. In some countries, where local pricing differs, the exact amount may vary slightly."
     }
 }

@@ -15,8 +15,8 @@
         "getNow": "vous recevez maintenant",
         "free90Days": "90 jours totalement gratuits",
         "exclusiveAccess": "accès exclusif à ROKK – la plateforme de streaming rock et metal équitable, développée par des musiciens pour de vrais fans – et après vous diffusez encore",
-        "next3Months": "trois mois supplémentaires pour seulement 6,66 € par mois.*",
-        "afterPrice": "*10,99 €/mois ensuite – annulation possible à tout moment",
+        "next3Months": "trois mois supplémentaires pour seulement 1201.96 Ft par mois.*",
+        "afterPrice": "*1,990 Ft/mois ensuite – annulation possible à tout moment",
         "exclusiveForClub": "Exclusif aux membres EMP Backstage Club",
         "clubMembers": "Membres du Backstage Club",
         "favoriteBandsGenres": "Tous tes groupes et genres préférés",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Exclusif pour",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 jours gratuits",
-        "afterTrialPrice": "Ensuite 6,66 € / mois",
+        "afterTrialPrice": "Ensuite 1,201.96 Ft / mois",
         "first3MonthsPrice": "pour les 3 premiers mois après la période d'essai",
-        "cancelAnytimePrice": "10,99 €/mois ensuite – annulation possible à tout moment",
+        "cancelAnytimePrice": "1,990 Ft/mois ensuite – annulation possible à tout moment",
         "bandsGenresTitle": "Tous tes groupes et genres préférés",
         "bandsGenresDesc": "Tes groupes préférés dans tous les genres imaginables – plus des recommandations et playlists de qualité.",
         "otherGenresTitle": "Tous les autres styles musicaux",
@@ -44,6 +44,7 @@
         "playlistImport": "Importer des playlists",
         "playlistImportDesc": "Avec une fonction simple pour importer tes playlists préférées d'autres services.",
         "why": "Pourquoi",
-        "selectLanguage": "Válassza ki a nyelvet"
+        "selectLanguage": "Válassza ki a nyelvet",
+        "notify": "A 6,66 €-os ajánlat a 10,99 €-os európai szabványárra épül. Egyes országokban, ahol az árak eltérnek, a pontos összeg kissé eltérhet."
     }
 }

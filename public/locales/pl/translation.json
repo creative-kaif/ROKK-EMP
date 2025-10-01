@@ -15,8 +15,8 @@
         "getNow": "otrzymujesz teraz",
         "free90Days": "90 dni całkowicie za darmo",
         "exclusiveAccess": "ekskluzywny dostęp do ROKK – uczciwej platformy strumieniowania rocka i metalu, stworzonej przez muzyków dla prawdziwych fanów – a potem otrzymujesz kolejne",
-        "next3Months": "trzy miesiące za jedyne 6,66 € miesięcznie.*",
-        "afterPrice": "*10,99 €/miesiąc później – można anulować w dowolnym momencie",
+        "next3Months": "trzy miesiące za jedyne 13.28 zł miesięcznie.*",
+        "afterPrice": "*21,99 zł/miesiąc później – można anulować w dowolnym momencie",
         "exclusiveForClub": "Wyłącznie dla członków EMP Backstage Club",
         "clubMembers": "Członkowie Backstage Club",
         "favoriteBandsGenres": "Wszystkie twoje ulubione zespoły i gatunki",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Wyłącznie dla",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 dni za darmo",
-        "afterTrialPrice": "Następnie 6,66 € / miesiąc",
+        "afterTrialPrice": "Następnie 13.28 zł / miesiąc",
         "first3MonthsPrice": "przez pierwsze 3 miesiące po okresie próbnym",
-        "cancelAnytimePrice": "10,99 €/miesiąc później – można anulować w dowolnym momencie",
+        "cancelAnytimePrice": "21,99 zł/miesiąc później – można anulować w dowolnym momencie",
         "bandsGenresTitle": "Wszystkie twoje ulubione zespoły i gatunki",
         "bandsGenresDesc": "Twoje ulubione zespoły we wszystkich możliwych gatunkach – plus najlepsze rekomendacje i playlisty.",
         "otherGenresTitle": "Wszystkie inne style muzyczne",
@@ -44,6 +44,7 @@
         "playlistImport": "Importuj playlisty",
         "playlistImportDesc": "Z prostą funkcją importu twoich ulubionych playlist z innych usług.",
         "why": "Dlaczego",
-        "selectLanguage": "Wybierz swój język"
+        "selectLanguage": "Wybierz swój język",
+        "notify": "Oferta 6,66 € opiera się na standardowej cenie europejskiej wynoszącej 10,99 €. W niektórych krajach, gdzie ceny lokalne się różnią, dokładna kwota może się nieznacznie różnić."
     }
 }

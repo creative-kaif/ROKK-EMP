@@ -15,8 +15,8 @@
         "getNow": "primești acum",
         "free90Days": "90 de zile complet gratuit",
         "exclusiveAccess": "acces exclusiv la ROKK – platforma corectă de streaming rock și metal, dezvoltată de muzicieni pentru adevărații fani – iar apoi beneficiezi de încă",
-        "next3Months": "trei luni pentru doar 6,66 € pe lună.*",
-        "afterPrice": "*10,99 €/lună după – poți anula oricând",
+        "next3Months": "trei luni pentru doar 13.28 lei pe lună.*",
+        "afterPrice": "*21.99 lei/lună după – poți anula oricând",
         "exclusiveForClub": "Exclusiv pentru membrii EMP Backstage Club",
         "clubMembers": "Membrii Backstage Club",
         "favoriteBandsGenres": "Toate trupele și genurile tale preferate",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Exclusiv pentru",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 de zile gratuit",
-        "afterTrialPrice": "Apoi 6,66 € / lună",
+        "afterTrialPrice": "Apoi 13.28 lei / lună",
         "first3MonthsPrice": "pentru primele 3 luni după perioada de probă",
-        "cancelAnytimePrice": "10,99 €/lună după – poți anula oricând",
+        "cancelAnytimePrice": "21.99 lei/lună după – poți anula oricând",
         "bandsGenresTitle": "Toate trupele și genurile tale preferate",
         "bandsGenresDesc": "Trupele tale preferate în orice gen imaginabil – plus recomandări și playlisturi de top.",
         "otherGenresTitle": "Toate celelalte stiluri muzicale",
@@ -44,6 +44,7 @@
         "playlistImport": "Importă playlisturi",
         "playlistImportDesc": "Cu o funcție simplă de import pentru playlisturile tale preferate din alte servicii.",
         "why": "De ce",
-        "selectLanguage": "Selectează limba ta"
+        "selectLanguage": "Selectează limba ta",
+        "notify": "Oferta de 6,66 € se bazează pe prețul european standard de 10,99 €. În unele țări, unde prețurile locale diferă, suma exactă poate varia ușor."
     }
 }

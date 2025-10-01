@@ -44,6 +44,7 @@
         "playlistImport": "Importer des playlists",
         "playlistImportDesc": "Avec une fonction simple pour importer tes playlists préférées d'autres services.",
         "why": "Pourquoi",
-        "selectLanguage": "Sélectionnez votre langue"
+        "selectLanguage": "Sélectionnez votre langue",
+        "notify": "L’offre à 6,66 € est basée sur le prix standard européen de 10,99 €. Dans certains pays, où les prix locaux diffèrent, le montant exact peut légèrement varier."
     }
 }
