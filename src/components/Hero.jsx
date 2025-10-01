@@ -32,13 +32,18 @@ const Hero = () => {
                         {t('general.membershipText')} <span className="text-Orange-200">{t('general.empClub')}</span> {t('general.getNow')} <span className="text-Orange-200">{t('general.free90Days')}</span> {t('general.exclusiveAccess')}<span className="text-Orange-200">{t('general.next3Months')}</span>
                     </motion.p>
                     <motion.p
-                        initial={{ y: 70, opacity: 0, }}
-                        animate={{ y: 0, opacity: 1, }}
+                        initial={{ y: 70, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="mt-4 font-Poppins-Regular text-center tracking-normal leading-[34px] max-md:text-[16px] max-md:leading-[28px] text-2xl max-w-3xl mx-auto text-black-50">
-                        {t('general.notify')}
+                        className="mt-4 font-Poppins-Regular text-center tracking-normal leading-[34px] 
+             max-md:text-[16px] max-md:leading-[28px] text-2xl max-w-3xl mx-auto text-black-50"
+                    >
+                        {t('general.notify')}{" "}
+                        {/* <br /><br />
+                        <span className="font-Poppins-Bold text-Orange-200 uppercase tracking-wider">
+                            CODE:EMP
+                        </span> */}
                     </motion.p>
-                    <br />
                     {/* <motion.p
                         initial={{ y: 70, opacity: 0, }}
                         animate={{ y: 0, opacity: 1, }}

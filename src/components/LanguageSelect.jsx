@@ -1,25 +1,27 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import ReactCountryFlag from 'react-country-flag';
 
 const languages = [
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-    { code: 'bg', name: 'Български', flag: '🇧🇬' },
-    { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
-    { code: 'da', name: 'Dansk', flag: '🇩🇰' },
-    { code: 'el', name: 'Ελληνικά', flag: '🇬🇷' },
-    { code: 'es', name: 'Español', flag: '🇪🇸' },
-    { code: 'fr', name: 'Français', flag: '🇫🇷' },
-    { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
-    { code: 'it', name: 'Italiano', flag: '🇮🇹' },
-    { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
-    { code: 'no', name: 'Norsk', flag: '🇳🇴' },
-    { code: 'pl', name: 'Polski', flag: '🇵🇱' },
-    { code: 'pt', name: 'Português', flag: '🇵🇹' },
-    { code: 'ro', name: 'Română', flag: '🇷🇴' },
-    { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-    { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
-    { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+    // Use the country you want to represent each language (ISO 3166-1 alpha-2)
+    { code: 'en', name: 'English', country: 'US' }, // or GB if you prefer UK
+    { code: 'de', name: 'Deutsch', country: 'DE' },
+    { code: 'bg', name: 'Български', country: 'BG' },
+    { code: 'cs', name: 'Čeština', country: 'CZ' },
+    { code: 'da', name: 'Dansk', country: 'DK' },
+    { code: 'el', name: 'Ελληνικά', country: 'GR' },
+    { code: 'es', name: 'Español', country: 'ES' },
+    { code: 'fr', name: 'Français', country: 'FR' },
+    { code: 'hu', name: 'Magyar', country: 'HU' },
+    { code: 'it', name: 'Italiano', country: 'IT' },
+    { code: 'nl', name: 'Nederlands', country: 'NL' },
+    { code: 'no', name: 'Norsk', country: 'NO' },
+    { code: 'pl', name: 'Polski', country: 'PL' },
+    { code: 'pt', name: 'Português', country: 'PT' },
+    { code: 'ro', name: 'Română', country: 'RO' },
+    { code: 'ru', name: 'Русский', country: 'RU' },
+    { code: 'sk', name: 'Slovenčina', country: 'SK' },
+    { code: 'sv', name: 'Svenska', country: 'SE' },
 ];
 
 export default function LanguageSelect() {
@@ -36,6 +38,7 @@ export default function LanguageSelect() {
         setOpen(false);
     };
 
+    // click outside + ESC close
     useEffect(() => {
         const onClick = (e) => {
             if (!rootRef.current?.contains(e.target)) setOpen(false);
@@ -51,6 +54,7 @@ export default function LanguageSelect() {
         };
     }, []);
 
+    // keyboard navigation inside list
     const onListKeyDown = (e) => {
         if (e.key === 'ArrowDown') {
             e.preventDefault();
@@ -81,8 +85,16 @@ export default function LanguageSelect() {
           shadow-md hover:bg-black-250 transition-all
           focus:outline-none focus:ring-2 focus:ring-white/30
         "
+                aria-haspopup="listbox"
+                aria-expanded={open}
             >
-                <span className="font-emoji text-base leading-none">{currentLang.flag}</span>
+                <ReactCountryFlag
+                    countryCode={currentLang.country}
+                    svg
+                    className="mr-1"
+                    style={{ width: '1.1rem', height: '1.1rem' }}
+                    title={currentLang.country}
+                />
                 <span>{currentLang.name}</span>
                 <svg
                     className="ml-1 h-4 w-4 text-white/90"
@@ -109,6 +121,7 @@ export default function LanguageSelect() {
           "
                 >
                     <ul
+                        role="listbox"
                         tabIndex={0}
                         onKeyDown={onListKeyDown}
                         className="py-1 max-h-64 overflow-y-auto outline-none"
@@ -119,6 +132,8 @@ export default function LanguageSelect() {
                             return (
                                 <li key={lang.code}>
                                     <button
+                                        role="option"
+                                        aria-selected={isActive}
                                         onMouseEnter={() => setActiveIndex(idx)}
                                         onClick={() => changeLang(lang.code)}
                                         className={`
@@ -129,7 +144,13 @@ export default function LanguageSelect() {
                       ${isFocused && !isActive ? 'bg-black-250/70' : ''}
                     `}
                                     >
-                                        <span className="mr-2 font-emoji text-base leading-none">{lang.flag}</span>
+                                        <ReactCountryFlag
+                                            countryCode={lang.country}
+                                            svg
+                                            className="mr-2"
+                                            style={{ width: '1rem', height: '1rem' }}
+                                            title={lang.country}
+                                        />
                                         {lang.name}
                                     </button>
                                 </li>
