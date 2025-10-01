@@ -36,7 +36,6 @@ export default function LanguageSelect() {
         setOpen(false);
     };
 
-    // click outside + ESC close
     useEffect(() => {
         const onClick = (e) => {
             if (!rootRef.current?.contains(e.target)) setOpen(false);
@@ -52,7 +51,6 @@ export default function LanguageSelect() {
         };
     }, []);
 
-    // keyboard navigation inside list
     const onListKeyDown = (e) => {
         if (e.key === 'ArrowDown') {
             e.preventDefault();
@@ -84,7 +82,7 @@ export default function LanguageSelect() {
           focus:outline-none focus:ring-2 focus:ring-white/30
         "
             >
-                <span>{currentLang.flag}</span>
+                <span className="font-emoji text-base leading-none">{currentLang.flag}</span>
                 <span>{currentLang.name}</span>
                 <svg
                     className="ml-1 h-4 w-4 text-white/90"
@@ -131,7 +129,7 @@ export default function LanguageSelect() {
                       ${isFocused && !isActive ? 'bg-black-250/70' : ''}
                     `}
                                     >
-                                        <span className="mr-2">{lang.flag}</span>
+                                        <span className="mr-2 font-emoji text-base leading-none">{lang.flag}</span>
                                         {lang.name}
                                     </button>
                                 </li>
