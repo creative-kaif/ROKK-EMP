@@ -25,7 +25,7 @@ const Cta = () => {
                             <div className="col-span-2">
                                 <div className="max-md:mt-8 max-lg:mt-14 max-md:mb-4 btn flex max-md:justify-center">
                                     <div className="relative ">
-                                        <a href={`https://services.rokk-api.com/?ref=heavys&lang=${i18n.resolvedLanguage}`}
+                                        <a href={`https://services.rokk-api.com/?ref=emp&lang=${i18n.resolvedLanguage}`}
                                             className="  shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-3 max-md:mt-8 max-md:text-xs py-6 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase max-md:text-sm text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
                                             {t('general.trialOffer')}
                                         </a>
