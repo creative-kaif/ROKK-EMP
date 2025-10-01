@@ -52,7 +52,7 @@ const Accordion = ({ accordionItems }) => {
                                             {item.desc}
                                         </p>
                                         <div className="mt-12 mb-6">
-                                            <a href={`https://services.rokk-api.com/?ref=heavys&lang=${i18n.resolvedLanguage}`} className="font-Poppins-Bold py-3 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE TRIAL</a>
+                                            <a href={`https://services.rokk-api.com/?ref=emp&lang=${i18n.resolvedLanguage}`} className="font-Poppins-Bold py-3 px-6 rounded-full border-2 border-Orange-200 text-white tracking-[3px] uppercase text-sm hover:bg-Orange-200 hover:text-black-400 transition-all">FREE TRIAL</a>
                                         </div>
                                     </div>
                                 </div>
