@@ -5,42 +5,44 @@ import Icon from "../assets/img/logo-icon.png";
 import imgOne from "../assets/img/mockup-img.png";
 import imgTwo from "../assets/img/logo-white.png";
 import { motion } from "motion/react";
+import { useTranslation } from 'react-i18next';
 
 
 const Why = () => {
+    const { t } = useTranslation();
 
     const accordionItems = [
         {
             id: 1,
-            title: "Alle Deine Lieblingsbands Und - genres",
+            title: t('general.bandsGenresTitle'),
             image: { imgOne },
-            desc: `Deine Lieblingsbands in jedem erdenklichen Genre – plus erstklassige Empfehlungen & Playlists. `,
+            desc: t('general.bandsGenresDesc'),
         },
         {
             id: 2,
-            title: "Alle Anderen Musikstile",
+            title: t('general.otherGenresTitle'),
             image: { imgTwo },
-            desc: `Unser Fokus liegt auf Rock & Metal – aber du kannst alles hören, was du willst!`,
+            desc: t('general.otherGenresDesc'),
         },
         {
             id: 3,
-            title: "High Quality Audio",
-            desc: `Unsere Standard Streaming Qualität entspricht bereits HiFi Standards.`,
+            title: t('general.highQualityAudio'),
+            desc: t('general.qualityDesc'),
         },
         {
             id: 4,
-            title: "Mehr € Pro Stream",
-            desc: `Mit ROKK gibt es mehr Geld für die Bands und Künstler, die du hörst. `,
+            title: t('general.morePerStream'),
+            desc: t('general.morePerStreamDesc'),
         },
         {
             id: 5,
-            title: "Direct Artist Support",
-            desc: `Mit dem ROKK HiFi-Abo unterstützt du direkt einen Künstler deiner Wahl.`,
+            title: t('general.directSupport'),
+            desc: t('general.directSupportDesc'),
         },
         {
             id: 6,
-            title: "Playlists Importieren",
-            desc: `Mit einer einfachen Importfunktion für deine Lieblings-Playlists von anderen Diensten. `,
+            title: t('general.playlistImport'),
+            desc: t('general.playlistImportDesc'),
         },
     ];
     return (
@@ -55,7 +57,7 @@ const Why = () => {
                 className="why-rokk-section w-screen h-full bg-gradient-to-b from-black-400/0 from-0% to-black-400 to-25% text-Orange-200 z-50">
                 <div className="container px-4 max-md:px-6 mx-auto">
                     <div className="pt-32 pb-44 max-md:pb-32 max-md:pt-12">
-                        <h5 className="ml-3 text-4xl max-md:text-2xl max-md:tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">WARUM <span><img
+                        <h5 className="ml-3 text-4xl max-md:text-2xl max-md:tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">{t('general.why')} <span><img
                             src={Icon} className="relative w-9 inline items-center max-md:w-6 max-md:mx-1 mx-3 mb-2"
                             alt="" /></span> Rokk ?</h5>
 

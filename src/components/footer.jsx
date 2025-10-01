@@ -3,9 +3,11 @@ import logo from "../assets/img/logo-white.png";
 import Fb from "../assets/img/fb-icon.png";
 import Insta from "../assets/img/insta-icon.png";
 import Youtube from "../assets/img/youtube-icon.png";
+import { useTranslation } from 'react-i18next';
 
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
         <div className="footer-section pt-6 pb-12 bg-black-500">
             <div className="container px-8 max-md:px-8 md:px-6 mx-auto relative text-sm">
@@ -44,11 +46,11 @@ const Footer = () => {
                         <div className="max-md:mt-6 terms">
                             <a href="https://rokk-app.com/privacy-policy"
                                 className="text-black-50 font-Poppins-Regular text-base ">
-                                Privacy Policy
+                                {t('general.privacyPolicy')}
                             </a>
                             <a href="https://rokk-app.com/terms-of-use"
                                 className="ml-10 text-black-50 font-Poppins-Regular text-base ">
-                                Terms of Use
+                                {t('general.termsOfUse')}
                             </a>
                         </div>
                     </div>

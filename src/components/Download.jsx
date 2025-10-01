@@ -2,8 +2,10 @@ import Mockup2 from '../assets/img/mockup-2.png'
 import Andriod from '../assets/img/google-download-btn.png'
 import Apple from '../assets/img/apple-download-btn.png'
 import { motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 const Download = () => {
+    const { t } = useTranslation();
     return (
         <div className="download-app bg-black-300">
             <div className="container mx-auto max-md:px-6">
@@ -19,10 +21,10 @@ const Download = () => {
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="content-body my-auto mx-auto max-md:text-center">
                         <h1 className="text-6xl font-TitlingGothicFB max-w-md max-md:text-5xl text-white tracking-wide leading-none uppercase">
-                            MUSIK. JEDERZEIT UND ÜBERALL
+                            {t('general.musicAnywhere')}
                         </h1>
                         <p className={` transition-all ease-in mt-2 text-black-150 font-Poppins-Regular max-md:text-base text-base max-w-sm leading-7`}>
-                            High-Quality-Downloads / Offline-Modus inklusive.   <span className="text-Orange-200">App jetzt herunterladen</span>
+                            {t('general.offlineMode')}   <span className="text-Orange-200">{t('general.downloadApp')}</span>
                         </p>
                         <motion.div
                             className=" flex download-btn mt-14 max-md:mx-auto max-md:justify-center">

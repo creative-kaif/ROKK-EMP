@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Check from "../assets/img/check.png";
 import Info from "../assets/img/info-icon.svg";
 import TFLogo from "../assets/img/LogoTF.png";
@@ -7,30 +8,31 @@ import React from "react";
 
 
 const Pricing = () => {
+    const { t, i18n } = useTranslation();
     let features = [
         {
             id: 1,
-            title: "Alle deine Lieblingsbands & -Genres",
+            title: t('general.favoriteBandsGenres'),
         },
         {
             id: 2,
-            title: "Inklusive aller anderen Musikrichtungen",
+            title: t('general.allGenres'),
         },
         {
             id: 3,
-            title: "HiFi-Soundqualität",
+            title: t('general.hifiQuality'),
         },
         {
             id: 4,
-            title: "Hintergrundinfos zu allen Künstlern",
+            title: t('general.artistInfo'),
         },
         {
             id: 5,
-            title: "Bis zu 10 % Direct Artist Support",
+            title: t('general.artistSupportPercent'),
         },
         {
             id: 6,
-            title: "Mehr Geld für Bands und Künstler",
+            title: t('general.moreMoneyForArtists'),
         },
 
     ];
@@ -54,9 +56,9 @@ const Pricing = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="content-head text-center">
 
-                        <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">EXKLUSIV FÜR <span><img
+                        <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">{t('general.exclusiveFor')} <span><img
                             src={TFLogo} className="max-w-52 relative -mt-2 max-md:-mt-0 inline items-center max-md:w-32 max-md:mx-1 mx-3 mb-2"
-                            alt="" /></span>  Backstage Club Mitglieder </h1>
+                            alt="" /></span> {t('general.clubMembers')} </h1>
 
 
 
@@ -78,19 +80,19 @@ const Pricing = () => {
                                         </a>
                                     </div>
                                     <div className="price-body col-span-6 max-md:col-span-1  border-r-2 max-md:border-r-0 max-md:border-b-2 border-black-250 min-w-xl">
-                                        <h5 className="font-Poppins-Medium tracking-tight uppercase text-white text-4xl">ROKK HIFI</h5>
+                                        <h5 className="font-Poppins-Medium tracking-tight uppercase text-white text-4xl">{t('general.rokkHifi')}</h5>
                                         <div className="rate">
                                             <h4 className="text-Orange-200 max-md:text-4xl text-5xl mt-4 tracking-tight font-Poppins-Medium">
-                                                90 Tage gratis
+                                                {t('general.free90DaysShort')}
                                             </h4>
                                         </div>
-                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">Danach 6, 66 € / Monat</p>
-                                        <p className=" mt-1 font-Poppins-Regular text-lg text-white opacity-50">für die ersten 3 Monate nach der Testphase</p>
+                                        <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">{t('general.afterTrialPrice')}</p>
+                                        <p className=" mt-1 font-Poppins-Regular text-lg text-white opacity-50">{t('general.first3MonthsPrice')}</p>
                                         <div className="btn">
                                             <div className="w-full relative mt-8 max-md:mb-12">
-                                                <a href="https://services.rokk-api.com/?ref=heavys"
+                                                <a href={`https://services.rokk-api.com/?ref=heavys&lang=${i18n.resolvedLanguage}`}
                                                     className=" shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-3 max-md:text-xs py-4 px-6 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-lg hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
-                                                    Jetzt 90 Tage gratis testen
+                                                    {t('general.trialOffer')}
                                                 </a>
                                             </div>
                                         </div>
@@ -114,7 +116,7 @@ const Pricing = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">10,99 €/Monat danach – jederzeit kündbar</p>
+                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">{t('general.cancelAnytimePrice')}</p>
                 </div>
             </div>
         </div>
