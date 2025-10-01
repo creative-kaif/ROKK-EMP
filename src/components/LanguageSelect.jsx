@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const languages = [
-    { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
     { code: 'bg', name: 'Български', flag: '🇧🇬' },
     { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
