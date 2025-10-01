@@ -4,7 +4,7 @@ import ReactCountryFlag from 'react-country-flag';
 
 const languages = [
     // Use the country you want to represent each language (ISO 3166-1 alpha-2)
-    { code: 'en', name: 'English', country: 'US' }, // or GB if you prefer UK
+    { code: 'en', name: 'English', country: 'GB' },
     { code: 'de', name: 'Deutsch', country: 'DE' },
     { code: 'bg', name: 'Български', country: 'BG' },
     { code: 'cs', name: 'Čeština', country: 'CZ' },

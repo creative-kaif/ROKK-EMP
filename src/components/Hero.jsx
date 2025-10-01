@@ -39,10 +39,10 @@ const Hero = () => {
              max-md:text-[16px] max-md:leading-[28px] text-2xl max-w-3xl mx-auto text-black-50"
                     >
                         {t('general.notify')}{" "}
-                        {/* <br /><br />
+                        <br /><br />
                         <span className="font-Poppins-Bold text-Orange-200 uppercase tracking-wider">
-                            CODE:EMP
-                        </span> */}
+                            CODE: EMP
+                        </span>
                     </motion.p>
                     {/* <motion.p
                         initial={{ y: 70, opacity: 0, }}
