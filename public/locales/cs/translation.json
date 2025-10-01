@@ -15,8 +15,8 @@
         "getNow": "nyní získáš",
         "free90Days": "90 dní zcela zdarma",
         "exclusiveAccess": "exkluzivní přístup k ROKK – férové rockové a metalové streamovací platformě, vyvinuté muzikanty pro opravdové fanoušky – a poté streamuješ další",
-        "next3Months": "další tři měsíce jen za 6,66 € měsíčně.*",
-        "afterPrice": "*10,99 €/měsíc poté – zrušitelné kdykoliv",
+        "next3Months": "další tři měsíce jen za 96.04 Kč měsíčně.*",
+        "afterPrice": "*159 Kč/měsíc poté – zrušitelné kdykoliv",
         "exclusiveForClub": "Exkluzivně pro členy EMP Backstage Club",
         "clubMembers": "Členové Backstage Club",
         "favoriteBandsGenres": "Všechny tvé oblíbené kapely a žánry",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Exkluzivně pro",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 dní zdarma",
-        "afterTrialPrice": "Poté 6,66 € / měsíc",
+        "afterTrialPrice": "Poté 96.04 Kč / měsíc",
         "first3MonthsPrice": "na první 3 měsíce po zkušební době",
-        "cancelAnytimePrice": "10,99 €/měsíc poté – zrušitelné kdykoliv",
+        "cancelAnytimePrice": "159 Kč/měsíc poté – zrušitelné kdykoliv",
         "bandsGenresTitle": "Všechny tvé oblíbené kapely a žánry",
         "bandsGenresDesc": "Tvé oblíbené kapely v každém žánru – plus nejlepší doporučení a playlisty.",
         "otherGenresTitle": "Všechny ostatní hudební styly",
@@ -44,6 +44,7 @@
         "playlistImport": "Import playlistů",
         "playlistImportDesc": "Snadná funkce importu tvých oblíbených playlistů z jiných služeb.",
         "why": "Proč",
-        "selectLanguage": "Vyberte si jazyk"
+        "selectLanguage": "Vyberte si jazyk",
+        "notify": "Nabídka 6,66 € vychází ze standardní evropské ceny 10,99 €. V některých zemích, kde se místní ceny liší, se může přesná částka mírně lišit."
     }
 }

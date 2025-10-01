@@ -15,8 +15,8 @@
         "getNow": "får du nå",
         "free90Days": "90 dager helt gratis",
         "exclusiveAccess": "eksklusiv tilgang til ROKK – den rettferdige rock- og metal-streamingplattformen, utviklet av musikere for ekte musikkfans – og etterpå streamer du ytterligere",
-        "next3Months": "tre måneder til for kun €6,66 per måned.*",
-        "afterPrice": "*€10,99/måned deretter – kan kanselleres når som helst",
+        "next3Months": "tre måneder til for kun kr 77.92 per måned.*",
+        "afterPrice": "*kr 129/måned deretter – kan kanselleres når som helst",
         "exclusiveForClub": "Eksklusivt for EMP Backstage Club medlemmer",
         "clubMembers": "Backstage Club medlemmer",
         "favoriteBandsGenres": "Alle dine favorittband og sjangre",
@@ -28,9 +28,9 @@
         "exclusiveFor": "Eksklusivt for",
         "rokkHifi": "ROKK HiFi",
         "free90DaysShort": "90 dager gratis",
-        "afterTrialPrice": "Deretter €6,66 / måned",
+        "afterTrialPrice": "Deretter kr 77.92 / måned",
         "first3MonthsPrice": "for de første 3 månedene etter prøveperioden",
-        "cancelAnytimePrice": "€10,99/måned deretter – kan kanselleres når som helst",
+        "cancelAnytimePrice": "kr 129/måned deretter – kan kanselleres når som helst",
         "bandsGenresTitle": "Alle dine favorittband og sjangre",
         "bandsGenresDesc": "Dine favorittband i alle tenkelige sjangre – pluss topp anbefalinger og spillelister.",
         "otherGenresTitle": "Alle andre musikksjangre",
@@ -44,6 +44,7 @@
         "playlistImport": "Importer spillelister",
         "playlistImportDesc": "Med en enkel importfunksjon for favorittspillelistene dine fra andre tjenester.",
         "why": "Hvorfor",
-        "selectLanguage": "Velg språket ditt"
+        "selectLanguage": "Velg språket ditt",
+        "notify": "Tilbudet på 6,66 € er basert på den standard europeiske prisen på 10,99 €. I noen land, hvor lokale priser varierer, kan det nøyaktige beløpet avvike litt."
     }
 }
